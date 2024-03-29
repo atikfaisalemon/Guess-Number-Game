@@ -17,12 +17,34 @@
           Again!
         </button>
 
-        <h1 class="text-white text-[25px]">[Between 1 to 20]</h1>
+        <h1 class="text-white text-[25px]">[Between 1 to 10]</h1>
+      </div>
+      <!-- box drop -->
+      <div id="box" class="hidden">
+        <div
+          class="bg-neutral-950 flex flex-col justify-center mx-auto gap-6 p-6 w-1/4 rounded-xl"
+        >
+          <h1 class="text-white text-xl text-center tracking-widest">
+            PLAY AGAIN..?
+          </h1>
+          <div class="flex flex-row gap-6">
+            <button
+              class="bg-green-300 hover:bg-green-500 p-2 w-1/2 rounded-sm hover:text-white"
+            >
+              Yes
+            </button>
+            <button
+              class="bg-red-300 hover:bg-red-500 p-2 w-1/2 rounded-sm hover:text-white"
+            >
+              No
+            </button>
+          </div>
+        </div>
       </div>
 
       <!-- main Text -->
-      <div class="mt-36">
-        <h1 class="text-6xl text-white text-center tracking-widest">
+      <div class="mt-16">
+        <h1 id="text" class="text-6xl text-white text-center tracking-widest">
           Guess The Number
         </h1>
       </div>
